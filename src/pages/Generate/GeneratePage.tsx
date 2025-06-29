@@ -65,8 +65,8 @@ export const GeneratePage = () => {
         }
 
         const timeout = setTimeout(() => {
-            setSuccessMessage(null);
-        }, 2000);
+            console.log();
+        }, 10000);
 
         return () => clearTimeout(timeout);
     }, [successMessage]);
